@@ -212,6 +212,16 @@ set updatetime=100
 set noswapfile
 
 "--------------------------------------------------------------
+" For vim markdown preview plugin
+"--------------------------------------------------------------
+" To disregard images and still automatically preview on
+" buffer write.
+let vim_markdown_preview_toggle=3
+
+" Use google chrome as the default browser
+let vim_markdown_preview_browser='Google Chrome'
+
+"--------------------------------------------------------------
 "Study zone
 "--------------------------------------------------------------
 "ABBREVIATIONS
