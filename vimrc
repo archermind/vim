@@ -219,7 +219,7 @@ set guifont=Monaco\ 12
 "--------------------------------------------------------------
 "80 column layout concerns
 "--------------------------------------------------------------
-highlight ColorColumn ctermbg=gray
+highlight ColorColumn guibg=yellow
 set colorcolumn=80
 
 "--------------------------------------------------------------
