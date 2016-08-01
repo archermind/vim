@@ -255,6 +255,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" see : https://github.com/Valloric/YouCompleteMe/issues/415
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+
 "--------------------------------------------------------------
 "Study zone
 "--------------------------------------------------------------
